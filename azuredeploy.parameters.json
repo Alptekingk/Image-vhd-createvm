@@ -1,0 +1,42 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "customVmName": {
+      "value": "customVM"
+    },
+    "userImageStorageAccountName": {
+      "value": "ci21c7135add2"
+    },
+    "adminUserName": {
+      "value": "username"
+    },
+    "adminPassword": {
+      "value": "iig2oc1C2638"
+    },
+    "osDiskVhdUri": {
+      "value": "https://nisanegitim.blob.core.windows.net/vhdler/egitimdc-yedek-os-2015-04-06.vhd"
+    },
+    "dnsLabelPrefix": {
+      "value": "exch2010"
+    },
+    "osType": {
+      "value": "Windows"
+    },
+    "vmSize": {
+      "value": "Standard_D2"
+    },
+    "newOrExistingVnet": {
+      "value": "Varolan"
+    },
+    "newOrExistingVnetName": {
+      "value": "adVnet"
+    },
+    "newOrExistingSubnetName": {
+      "value": "adSubnet"
+    },
+      "adminUserName": {
+          "value": "alptekin"
+      }
+  }
+}
