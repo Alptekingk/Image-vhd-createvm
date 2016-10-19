@@ -53,7 +53,7 @@
       }
     },
     "newOrExistingVnet": {
-      "allowedValues": [ "Yeni", "Varolan" ],
+      "allowedValues": [ "new", "existing" ],
       "type": "string",
       "metadata": {
         "description":  "VM'in IP adresi 192.168.0.0/24 Networkünden verilmeli."
@@ -80,7 +80,7 @@
     "nicName": "[concat(parameters('customVmName'),'Nic')]",
     "publicIPAddressType": "Dynamic",
     "apiVersion": "2015-06-15",
-    "templatelink": "[concat('https://raw.githubusercontent.com/azure/azure-quickstart-templates/master/101-vm-from-user-image/',parameters('newOrExistingVnet'),'vnet.json')]"
+    "templatelink": "[concat('https://raw.githubusercontent.com/Alptekingk/Image-vhd-createvm/master/',parameters('newOrExistingVnet'),'vnet.json')]"
   },
   "resources": [
     {

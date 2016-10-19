@@ -6,13 +6,13 @@
       "value": "customVM"
     },
     "userImageStorageAccountName": {
-      "value": "ci21c7135add2"
+      "value": "nisanegitim"
     },
     "adminUserName": {
       "value": "username"
     },
     "adminPassword": {
-      "value": "iig2oc1C2638"
+      "value": "pass@word!2638"
     },
     "osDiskVhdUri": {
       "value": "https://nisanegitim.blob.core.windows.net/vhdler/egitimdc-yedek-os-2015-04-06.vhd"
@@ -27,7 +27,7 @@
       "value": "Standard_D2"
     },
     "newOrExistingVnet": {
-      "value": "Varolan"
+      "value": "existing"
     },
     "newOrExistingVnetName": {
       "value": "adVnet"
